@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="com.bitbakery.plugin.translator.TranslatorConfigForm">
+  <grid id="27dc6" binding="rootComponent" layout-manager="GridLayoutManager" row-count="4" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="411" height="110"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <vspacer id="369">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false">
+            <preferred-size width="111" height="14"/>
+          </grid>
+        </constraints>
+      </vspacer>
+      <component id="710bb" class="javax.swing.JCheckBox" binding="isSelectionSticky">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="111" height="22"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text resource-bundle="com/bitbakery/plugin/translator/TranslatorStrings" key="config.isSelectionSticky"/>
+        </properties>
+      </component>
+      <component id="68e89" class="javax.swing.JCheckBox" binding="isTargetLanguageSticky">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="111" height="22"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text resource-bundle="com/bitbakery/plugin/translator/TranslatorStrings" key="config.isTargetLanguageSticky"/>
+        </properties>
+      </component>
+      <component id="7e180" class="javax.swing.JComboBox" binding="sourceLanguages" custom-create="true">
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <enabled value="true"/>
+        </properties>
+      </component>
+      <component id="63e0b" class="javax.swing.JComboBox" binding="targetLanguages">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <enabled value="false"/>
+        </properties>
+      </component>
+      <component id="28a5a" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="111" height="16"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text resource-bundle="com/bitbakery/plugin/translator/TranslatorStrings" key="config.sourceLanguage"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>

@@ -1,0 +1,12 @@
+# Spanish
+
+# Common plugin
+action.Translate.text=Traducir
+action.Translate.description=Use Google Traducir para traducir el texto seleccionado
+plugin.translator.name=Traductor
+plugin.translator.description=Traducir Google utiliza para traducir el texto seleccionado
+
+# Config
+config.isSelectionSticky=Mantenga texto seleccionado después de la traducción?
+config.isTargetLanguageSticky=Traducir al lenguaje mismo cada vez?
+config.sourceLanguage=Idioma de origen

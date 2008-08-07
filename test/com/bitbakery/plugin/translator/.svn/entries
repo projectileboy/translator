@@ -1,0 +1,52 @@
+9
+
+dir
+23
+https://intelli-translator.googlecode.com/svn/trunk/test/com/bitbakery/plugin/translator
+https://intelli-translator.googlecode.com/svn
+
+
+
+2008-03-24T20:54:28.918314Z
+23
+kurt.j.christensen
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+98488c64-f448-0410-a19e-63884c06fa53
+
+LanguagesTest.java
+file
+38
+
+
+
+2008-05-09T19:58:32.000000Z
+fcef23098a79a36daf1cd8484ceaf6e3
+2008-05-09T20:47:58.136030Z
+38
+kurt.j.christensen
+
+TranslationActionTest.java
+file
+38
+
+
+
+2008-05-09T20:46:53.000000Z
+869c72a0fb5e575d689ef9dfc72aa51d
+2008-05-09T20:47:58.136030Z
+38
+kurt.j.christensen
+

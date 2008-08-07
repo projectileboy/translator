@@ -1,0 +1,12 @@
+# German
+
+# Common plugin
+action.Translate.text=Übersetzen
+action.Translate.description=Nutzen Sie die Google-Übersetzung Übersetzen Sie den ausgewählten Text
+plugin.translator.name=Translator
+plugin.translator.description=Verwendet Google Translate zu übersetzen ausgewählten Text
+
+# Config
+config.isSelectionSticky=Keep ausgewählten Text nach der Übersetzung?
+config.isTargetLanguageSticky=Übersetzen derselben Sprache zu jeder Zeit?
+config.sourceLanguage=Quelle Sprache

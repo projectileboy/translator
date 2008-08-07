@@ -1,0 +1,42 @@
+<!DOCTYPE idea-plugin PUBLIC "Plugin/DTD" "http://plugins.intellij.net/plugin.dtd">
+<idea-plugin>
+    <name>Translator</name>
+    <description>Uses Google Translate to translate the selected text. Select some text, hit alt/option - T, and away
+        you go.
+    </description>
+    <version>1.4</version>
+    <vendor url="http://www.bitbakery.com">The Bit Bakery</vendor>
+
+    <idea-version since-build="7000"/>
+
+    <resource-bundle>com.bitbakery.plugin.translator.TranslatorStrings</resource-bundle>
+
+    <change-notes>
+        <![CDATA[
+        1.4 - Added support for all the new languages available in Google Translate. <br/><br/>
+
+        1.3 - Moved popup menu text and description into the resource bundle - had been hardcoded in plugin.xml. <br/><br/>
+
+        1.2 - Set 'until-build' attribute, since big plugin API changes are coming in version 8. Also added Greek and
+        Dutch translations. <br/><br/>
+
+        1.1 - Fixed horrible, awful bug that would prevent you from opening IntelliJ after you had installed the plugin.
+        Yeah, I win a cookie for that one... <br/><br/>
+
+        1.0 - First usable release.
+        ]]>
+    </change-notes>
+
+    <application-components>
+        <component>
+            <implementation-class>com.bitbakery.plugin.translator.TranslatorConfig</implementation-class>
+        </component>
+    </application-components>
+
+    <actions>
+        <action id="Translate" class="com.bitbakery.plugin.translator.TranslationAction" icon="/icons/globe16.png">
+            <keyboard-shortcut keymap="$default" first-keystroke="alt T"/>
+            <add-to-group group-id="EditorPopupMenu" anchor="last"/>
+        </action>
+    </actions>
+</idea-plugin>

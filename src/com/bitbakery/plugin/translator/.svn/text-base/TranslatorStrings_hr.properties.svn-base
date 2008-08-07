@@ -1,0 +1,12 @@
+# Croatian
+
+# Common plugin
+action.Translate.text=Prevesti
+action.Translate.description=Koristite Google Translate to prevesti odabranu tekst
+plugin.translator.name=Translator
+plugin.translator.description=Koristi Google Translate prevoditi odabrani tekst
+
+# Config
+config.isSelectionSticky=Zadrži odabrano tekst nakon prijevod?
+config.isTargetLanguageSticky=Prevedi na isti jezik svaki put?
+config.sourceLanguage=Izvor jezik

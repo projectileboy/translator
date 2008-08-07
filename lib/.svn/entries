@@ -1,0 +1,41 @@
+9
+
+dir
+23
+https://intelli-translator.googlecode.com/svn/trunk/lib
+https://intelli-translator.googlecode.com/svn
+
+
+
+2008-03-21T15:49:05.956036Z
+2
+kurt.j.christensen
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+98488c64-f448-0410-a19e-63884c06fa53
+
+google-api-translate-java-0.28.jar
+file
+
+
+
+
+2008-03-24T20:43:46.000000Z
+8e134e83fa91117cb1c3ecb0c7156a2d
+2008-03-21T15:49:05.956036Z
+2
+kurt.j.christensen
+has-props
+
